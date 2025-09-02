@@ -141,7 +141,7 @@ function App() {
                 </TableRow>
               </TableHeader>
               <TableBody>
-                {sops.map((row) => (
+                {sops.map((row: SopRow) => (
                   <TableRow key={row.sopId}>
                     <TableCell>{row.station}</TableCell>
                     <TableCell>{row.sopId}</TableCell>
